@@ -17,6 +17,7 @@ The system provides an interface for teachers to mark attendance, view attendanc
 *	JDBC: For database connectivity
 
 ******Prerequisites******
+
 Ensure that the following software is installed on your system:
 *	Eclipse IDE (with J2EE support)
 *	XAMPP (for MySQL and Apache server)
@@ -24,8 +25,9 @@ Ensure that the following software is installed on your system:
 *	Java Development Kit (JDK) (version 8 or higher)
 
 ******Project Setup******
+
 Step 1: Clone the repository bash
-*	git clone https://github.com/your-username/college-attendance-system.git
+*	git clone https://github.com/Balaji-1103/College-Attendance-System.git
 
 Step 2: Open the project in Eclipse
 *	Open Eclipse IDE.
@@ -43,19 +45,24 @@ Step 4: Add the MySQL Connector JAR
 *	Add the JAR to the project’s Build Path by right-clicking the project > Build Path > Configure Build Path > Libraries tab > Add External JARs.
 
 ******Database Setup (XAMPP)******
+
 Step 1: Start MySQL
 *	Open XAMPP and click Start for Apache and MySQL.
+  
 Step 2: Create the database
 *	Go to http://localhost/phpmyadmin in your browser.
 *	Create a new database named attendance_system.
+  
 Step 3: Import the SQL schema
 *	Use the provided attendance_system.sql file (located in the db/ folder of the repository) to set up your database schema and tables.
 *	Go to phpMyAdmin, select the database, and click on the Import tab.
 *	Select the attendance_system.sql file and click Go.
 
 ******Running the Project******
+
 Step 1: Deploy on Tomcat Server
 *	In Eclipse, right-click the project and select Run As > Run on Server.
 *	Select Apache Tomcat and click Finish.
+  
 Step 2: Access the Application
 *	Open a web browser and navigate to http://localhost:8080/CollegeAttendanceSystem/.
