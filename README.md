@@ -1,14 +1,14 @@
 Developed a web-based application for managing and automating the attendance tracking system for students and teachers. 
 The system provides an interface for teachers to mark attendance, view attendance reports, and generate statistics, while students can view their own attendance history.
 
-Features
+******Features******
 •	Teachers can log in and mark attendance for students.
 •	Students can view their attendance history.
 •	Role-based access control for teachers and students.
 •	Real-time attendance reports.
 •	Database-driven design using MySQL (XAMPP).
 
-Technologies Used
+******Technologies Used******
 •	Backend: Java, Servlets
 •	Frontend: JSP (JavaServer Pages)
 •	Database: MySQL (via XAMPP)
@@ -16,14 +16,14 @@ Technologies Used
 •	Web Server: Apache Tomcat (J2EE Concept)
 •	JDBC: For database connectivity
 
-Prerequisites
+******Prerequisites******
 Ensure that the following software is installed on your system:
 •	Eclipse IDE (with J2EE support)
 •	XAMPP (for MySQL and Apache server)
 •	Apache Tomcat Server (for deploying the application)
 •	Java Development Kit (JDK) (version 8 or higher)
 
-Project Setup
+******Project Setup******
 Step 1: Clone the repository bash
 •	git clone https://github.com/your-username/college-attendance-system.git
 
@@ -42,7 +42,7 @@ Step 4: Add the MySQL Connector JAR
 •	Download the MySQL JDBC Driver from here.
 •	Add the JAR to the project’s Build Path by right-clicking the project > Build Path > Configure Build Path > Libraries tab > Add External JARs.
 
-Database Setup (XAMPP)
+******Database Setup (XAMPP)******
 Step 1: Start MySQL
 •	Open XAMPP and click Start for Apache and MySQL.
 Step 2: Create the database
@@ -53,7 +53,7 @@ Step 3: Import the SQL schema
 •	Go to phpMyAdmin, select the database, and click on the Import tab.
 •	Select the attendance_system.sql file and click Go.
 
-Running the Project
+******Running the Project******
 Step 1: Deploy on Tomcat Server
 •	In Eclipse, right-click the project and select Run As > Run on Server.
 •	Select Apache Tomcat and click Finish.
